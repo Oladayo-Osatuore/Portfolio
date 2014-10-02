@@ -1,0 +1,198 @@
+:root {
+  padding: 3em;
+  font: .9em/2 "helvetica neue", helvetica, arial, sans-serif;
+  background: #fafafa;
+}
+
+nav {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  text-align: center;
+  background: #000;
+  border-bottom: 1px solid #e3e3e3;
+}
+  nav h1 {
+    color: white;
+    text-align: left;
+    font-size: 1.7em;
+    padding: 0 0 0 47px;
+    margin: 0 0 0 0;
+  }
+
+
+nav h2 {
+    color: white;
+    text-align: left;
+    font-size: 1em;
+    padding: 0 0 0 47px;
+    margin: -13px 0 -54px 0;
+  }
+nav a {
+  display: inline-block;
+  padding: 1.2em .8em;
+  color: #fff;
+  text-decoration: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
+nav a:visited {
+  color: #fafafa;
+}
+
+
+
+nav a.selected, nav a:hover {
+  color: pink;
+}
+
+section {
+  max-width: 450px;
+  margin: 0 auto;
+  padding: 3em 0;
+}
+
+section + section {
+  border-top: 1px solid #ddd;
+}
+
+
+
+#intro {
+  padding: 18% 0 7% 0;
+  text-align: center;
+  background: url(../img/introbackground.jpeg);
+  width: 100%;
+}
+
+#intro h1 {
+  font-size: 3.5em;
+  font-family: 'Lobster', sans-serif;
+}
+
+#intro p{
+  font-size: 1.5em;
+  font-family: 'Shadows Into Light', sans-serif;
+}
+
+
+
+
+.gallery {
+  width: 100%;
+  padding: 108px 0 0 16px;
+  text-decoration: none;
+}
+
+#recentwork{
+  font-size: 2em;
+  color: blue;
+}
+
+#gallery p {
+  text-align: center;
+  
+  text-decoration: none;
+  font-family:;
+  margin: 0 15px 0 15px;
+}
+
+.gallery li {
+  display: inline-block;
+  width: 30%;
+  margin: 17px 16px 17px 16px;
+}
+
+.gallery li img{
+  max-width: 100%;
+}
+
+#about {
+  padding: 7% 0 19px 0;
+  text-align: center;
+  background: url(../img/aboutimg.jpg) no-repeat;
+}
+
+.profile-photo {
+  display: block;
+  max-width: 150px;
+  margin: 0 auto 30px;
+  border-radius: 100%;
+}
+
+
+
+#contact {
+  padding: 5.5% 0;
+  text-align: center;
+}
+
+#contact a{
+  display: right;
+}
+
+
+
+.contact-info {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-size: 0.9em;
+}
+
+
+
+.contact-info a {
+  display: block;
+  min-height: 20px;
+  background-repeat: no-repeat;
+  background-size: 20px 20px;
+  padding: 0 0 0 30px;
+  margin: 0 0 10px;
+  text-decoration: none;
+}
+
+
+
+.contact-info li.phone a {
+  background-image: url(../img/phone.png);
+}
+
+
+
+.contact-info li.mail a {
+  background-image: url('../img/mail.png')
+}
+
+
+
+.contact-info li.twitter a{
+  background-image: url('../img/twitter.png')
+}
+
+
+#secondary ul li {
+  list-style: none;
+}
+
+.social-icon1 {
+  width: 23px;
+  height: 23px;
+  margin: 0.5px;
+  padding-top: 4px;
+
+}
+
+
+.social-icon2 {
+  width: 30px;
+  height: 30px;
+  margin: 0.5px;
+  padding-top: 10px;
+}
+
+#backToTop{
+  text-decoration: none;
+  display: right;
+}
